@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link href="http://fonts.cdnfonts.com/css/gotham-pro" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <main class="main-content">
+      <div class="container">
+        <form action="sendmail.php" class="main-form" method="post">
+          <h1 class="main-form__title">Оставите заявку</h1>
+          <p class="main-form__subtitle">И наш специалист свяжется с вами</p>
+          <div class="main-form__inputs">
+            <input type="text" name="imya" placeholder="Ваше имя" required />
+            <input
+              type="tel"
+              name="telephone"
+              maxlength="18"
+              data-tel-input
+              placeholder="+7 (___) ___-__-__"
+              required
+            />
+            <input type="email" name="email" placeholder="Эл. почта" required />
+          </div>
+          <div class="main-form__submit-block">
+            <p class="main-form__agreement">
+              Нажимая кнопку, я принимаю
+              <a class="main-form__user-agency" href="#"
+                >пользовательское соглашение</a
+              >, соглашаюсь с политикой конфиденциальности, условиями
+              пользования сайтом, передачей и обработкой моих персональных
+              данных
+            </p>
+            <button class="main-form__submit-btn" type="submit" name="submit">
+              Оформить заявку
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

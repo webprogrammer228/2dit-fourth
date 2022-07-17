@@ -1,0 +1,98 @@
+body {
+  font-family: "Gotham Pro", sans-serif;
+}
+.main-content {
+  width: 1360px;
+  height: 650px;
+  background-image: url("./images/form-background.jpg");
+  margin: 100px auto;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.main-form {
+  width: 1134px;
+  height: 257px;
+  padding-top: 209px;
+}
+
+.main-form__title {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 105%;
+
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.03em;
+  margin-bottom: 1px;
+
+  color: #ffffff;
+}
+.main-form__subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+
+  color: #ffffff;
+}
+.main-form input {
+  width: 300.25px;
+  height: 50px;
+
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid #ffffff;
+  padding-left: 30px;
+  color: #ffffff;
+  margin-right: 40px;
+}
+.main-form input:last-child {
+  margin-right: 0;
+}
+.main-form input::placeholder {
+  color: #ffffff;
+}
+.main-form__inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.main-form__submit-block {
+  display: flex;
+  justify-content: space-between;
+}
+.main-form__agreement {
+  width: 719px;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+.main-form__user-agency {
+  color: #eb7979;
+}
+.main-form__submit-btn {
+  width: 339px;
+  padding: 13px 91px;
+  height: 50px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+  cursor: pointer;
+  background: #ffffff;
+}
+
